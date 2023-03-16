@@ -4,7 +4,7 @@ import * as calculator from "../../core/mockingWithJest/Calculator";
 /*
 Jest.mock básicamente lo que hace es crear un espía de todas y cada una de las funciones que se exponen en un módulo.
  */
-jest.mock("../../src/core/arithmetic");
+jest.mock("../../core/mockingWithJest/arithmetic");
 
 describe('The calculator', () => {
     it("calls arithmetic.add", () => {
